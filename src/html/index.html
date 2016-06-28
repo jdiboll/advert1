@@ -5,20 +5,37 @@
   <meta charset="utf-8">
   <meta name="viewport=" content="width=device-width initial-scale=1" >
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="http://ajax.googleapis.com/libs/1.11.3/jquery.min.js"</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script scr="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-default">
+
+	<nav class="navbar navbar-inverse">
   	<div class="container-fluid">
   		<div class="navbar-header">
   		<a href="#" class="navbar-brand">Atlanta Shakespeare Company</a>
   		</div>
   		<div>
-  			<ul>
+  			<ul class="nav navbar-nav">
   				<li><a href="#">About</a></li>
   				<li><a href="#">Tickets</a></li>
   				<li><a href="#">Photos</a></li>
+
+  				<li class="dropdown">
+  					<a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
+  					<ul class="dropdown-menu">
+  						<li><a href="#">Mission</a></li>
+  						<li><a href="#">History</a></li>
+  						<li><a href="#">Staff</a></li>
+  						<li><a href="#">Company</a></li>
+  						<li><a href="#">Auditions</a></li>
+  					</ul>
+  				</li>
+
+  			</ul>
+
+  			<ul class="nav navbar-nav navbar-right">
+  				<li><a href="#">Logout</a></li>
   			</ul>
   		</div>
   	</div>
@@ -26,7 +43,7 @@
   		<p>Where the works of The Bard come to life, by the power of original practice.</p>
 
   		<blockquote>
-  			<p>"I feel like I'm the only person who Goddamn cares on that fucking stage. Fuck Drew Reeves."</p>
+  			<p>"I didn't think anyone could be more romantically apathetic towards me than my ex-girlfriend... But I was Wrong! Dani Herd, ladies and gentlemen.... Dani Herd."</p>
   			<footer>Matt Nitchie</footer>
   		</blockquote>
   	<h4>Now Playing</h4>
@@ -70,8 +87,14 @@
   	<div class="embed-responsive embed-responsive-16by9">
   		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Y6rbuIip3QU"></iframe>
   	</div>
-  </div>
-  <script src="js/bundle.js"></script>
+  <!--<script src="content/js/jquery.min.js"></script>
+  <script src="content/js/bootstrap.min.js"></script>
+  <script>
+  	$(document).ready(function() {
+  		$('.dropdown-toggle').dropdown();
+  	});
+  </script>-->
+  <<script src="js/bundle.js"></script>
 </body>
 </html>
 
