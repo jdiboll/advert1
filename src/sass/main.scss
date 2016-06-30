@@ -3,3 +3,19 @@
 // Turn on freq used libraries
 // @import 'normalize-css/normalize';
 // @import 'font-awesome/scss/font-awesome';
+.sidebar-wrapper {
+	z-index: 1;
+	position: absolute;;
+	height: 100%;
+	width: 0;
+	overflow-y: hidden;
+	background: #2c3e50;
+	border: 2px solid black;
+	opacity: 0.9;
+}
+.content-wrapper {
+	width: 100%;
+	padding: 15px;
+	position: absolute;
+	border: 3px solid green;
+}
